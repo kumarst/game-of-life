@@ -495,4 +495,22 @@
             </reporting>
         </profile>
     </profiles>
+    <distributionManagement>
+     
+        <repository>
+            <id>gameoflife</id>
+            <name>gameoflife</name>
+            <url>http://localhost:8081/nexus/content/repositories/gameoflife/</url>
+        </repository>
+        
+        
+        
+        <snapshotRepository>
+            <id>gameoflife</id>
+            <name>gameoflife</name>
+           <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+            
+    </distributionManagement>
+    
 </project>
